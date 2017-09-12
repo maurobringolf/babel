@@ -1,0 +1,4 @@
+{
+  "args": ["--out-dir", "lib", "--copy-dot-files"],
+  "stderrContains": true
+}

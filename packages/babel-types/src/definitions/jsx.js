@@ -90,7 +90,7 @@ defineType("JSXSpreadChild", {
 
 defineType("JSXIdentifier", {
   builder: ["name"],
-  aliases: ["JSX", "Expression"],
+  aliases: ["JSX"],
   fields: {
     name: {
       validate: assertValueType("string"),
